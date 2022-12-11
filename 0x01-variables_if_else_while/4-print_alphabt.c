@@ -11,7 +11,10 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-		putchar(letter.replace('q'||'e'," "));
+		if ((letter != 'q') && (letter != 'e'))
+		{
+			putchar(letter);
+		}
 		letter++;
 	}
 	putchar('\n');
