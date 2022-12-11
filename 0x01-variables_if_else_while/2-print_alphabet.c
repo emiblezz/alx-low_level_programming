@@ -1,15 +1,20 @@
-#include <stdlib.h>
+#include <stdio.h>
 
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ *main - print lowercase a-z
+ *Return: Always 0 (Success)
+ */
 
-int main(void){
-	char alphabet='a';
-	
-	while(alphabet<=z){
-		printf(alphabet);
-		alphabet++;
+int main(void)
+{
+	char alpha = 'a';
+
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
 	}
 	putchar('\n');
+
 	return (0);
 }
