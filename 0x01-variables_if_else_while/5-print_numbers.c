@@ -1,12 +1,20 @@
-#include<stdio.h>
-#include<time.h>
-int main(void){
-	    int n=0;
-	          
-	        while(n<10){
-			      printf("%i",n);
-			            n++;
-				        }
-		      putchar("\n");
-		            return(0);
+#include <stdio.h>
+
+/**
+ * main - prints from zero to 9 numbers
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int number = 0;
+
+	while (number < 10)
+	{
+		printf("%i", number);
+		number++;
+	}
+	putchar('\n');
+
+	return (0);
 }
