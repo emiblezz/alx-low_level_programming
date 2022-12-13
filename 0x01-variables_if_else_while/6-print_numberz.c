@@ -1,8 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  * main - print from 0 to 9 using putchar
  * Return: Always 0 (Success)
-*/
+ */
+
 int main(void)
 {
 	int num = '0';
@@ -13,5 +15,5 @@ int main(void)
 		num++;
 	}
 	putchar('\n');
+
 	return (0);
-}
